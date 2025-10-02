@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swimming Competition 2025 - Registration</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f0f9ff; padding: 20px; }
+    h1 { text-align: center; }
+    form { max-width: 500px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+    input, select { width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #0077cc; color: white; border: none; padding: 10px 15px; cursor: pointer; }
+    button:hover { background: #005fa3; }
+  </style>
+</head>
+<body>
+  <h1>🏊 Swimming Competition 2025</h1>
+  <form action="https://formspree.io/f/yourFormID" method="POST">
+    <label>Full Name:</label>
+    <input type="text" name="name" required>
+    
+    <label>Age:</label>
+    <input type="number" name="age" required>
+    
+    <label>Club:</label>
+    <input type="text" name="club">
+    
+    <label>Category:</label>
+    <select name="category" required>
+      <option value="50m">50m Freestyle</option>
+      <option value="100m">100m Freestyle</option>
+      <option value="200m">200m Freestyle</option>
+      <option value="relay">Relay</option>
+    </select>
+    
+    <label>Email:</label>
+    <input type="email" name="email" required>
+    
+    <label>Phone:</label>
+    <input type="text" name="phone">
+    
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>
+
